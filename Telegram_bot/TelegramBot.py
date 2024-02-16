@@ -7,11 +7,11 @@ import json
 
 from telegram.bot import Bot 
 
-bot = telegram.Bot(token='5923635818:AAFsDcVUx60nuzx6wHiDUJzst5F0xbwpdB0') #Replace TOKEN with your token string
+bot = telegram.Bot(token='6727549527:AAGoWHhs4yv7dmgJkLJr-0eDLchuLGzIkvU') #Replace TOKEN with your token string
 
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
-updater = Updater(token='5923635818:AAFsDcVUx60nuzx6wHiDUJzst5F0xbwpdB0', use_context=True) #Replace TOKEN with your token string
+updater = Updater(token='6727549527:AAGoWHhs4yv7dmgJkLJr-0eDLchuLGzIkvU', use_context=True) #Replace TOKEN with your token string
 dispatcher = updater.dispatcher
 
 
